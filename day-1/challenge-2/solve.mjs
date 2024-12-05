@@ -21,3 +21,4 @@ similarityScore = listA.map(numA => {
 }).reduce((a, b) => a + b);
 
 console.log(similarityScore);
+console.timeEnd('challenge 2');
